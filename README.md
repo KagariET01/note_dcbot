@@ -6,8 +6,7 @@ import discord
 from discord.ext import commands
 import asyncio
 
-token=os.getenv("DCtoken")
-logchannel=int(os.getenv("logchannel"))
+token="把你的bot token放在這"
 
 #  設定bot權限
 intents=discord.Intents.all()#  設定權限：所有權限
